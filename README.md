@@ -2,6 +2,13 @@
 
 Given an image, the script should succesfully detect if a particular person exists in it or not.
 
+## Tasks done : 
+* Loading Image
+
+## To Do Next : 
+* Detecting face(s) in the loaded image
+
+
 ## Status Tracker
 | SN  | MILESTONE | STATUS |
 | ---:| --------- | ------ |

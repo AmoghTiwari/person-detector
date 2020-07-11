@@ -2,9 +2,11 @@
 
 Given an image, the script should succesfully detect if a particular person exists in it or not.
 
-## Milestones
-1. Detect Face from Image
-2. 
+## Status Tracker
+| SN  | MILESTONE | STATUS |
+| ---:| --------- | ------ |
+| 1. | Detect face from image | In Progress | 
+| 2. | Identify person from the face | To be started| 
 
 ## Future Work 
 

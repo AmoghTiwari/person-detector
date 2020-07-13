@@ -20,11 +20,24 @@ class Images :
         return images
 
 if __name__ == "__main__":
+    face_cascade = cv2.CascadeClassifier('./supporting-files/haarcascade_frontalface_default.xml')
     path="./face-images"
     I=Images(path)
     images = I.load_images()
-    print(images)
+    # print(images)
+    # image_1 = cv2.imread(path + "/" + "3.jpg")
     image_1 = cv2.imread(images[0])
-    cv2.imshow("First Image", cv2.resize(image_1, (500, 500)))
+    # image_1 = cv2.resize(image_1, (500, 500))
+    # cv2.imshow('Image', cv2.resize(image_1, (500, 500)))
+    # cv2.waitKey(2000)
+    gray = cv2.cvtColor(image_1, cv2.COLOR_BGR2GRAY)
+    faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+
+    for (x, y, w, h ) in faces : 
+        print("a")
+        print(x,y,w,h)
+        image_1 = cv2.rectangle(image_1, (x,y),(x+w, y+h), (255,0,0),2)
+        # cv2.imshow("Face", cv2.rectangle(image_1, (x,y),(x+w, y+h), (255,0,0),2))
+    cv2.imshow("Face detected", image_1)
     cv2.waitKey(0)
     cv2.destroyAllWindows()

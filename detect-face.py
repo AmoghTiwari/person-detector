@@ -3,7 +3,6 @@
 2. Apply face detection algo.
 
 """
-
 import os
 import cv2
 
@@ -25,8 +24,9 @@ if __name__ == "__main__":
     I=Images(path)
     images = I.load_images()
     # print(images)
+    image_1 = cv2.imread("/home/amogh/Pictures/Webcam/2020-07-14-232018.jpg")
     # image_1 = cv2.imread(path + "/" + "3.jpg")
-    image_1 = cv2.imread(images[0])
+    # image_1 = cv2.imread(images[0])
     # image_1 = cv2.resize(image_1, (500, 500))
     # cv2.imshow('Image', cv2.resize(image_1, (500, 500)))
     # cv2.waitKey(2000)

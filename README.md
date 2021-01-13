@@ -14,13 +14,13 @@ Given an image, the script should succesfully detect if a particular person exis
 | ---:| --------- | ------ |
 | 1. | Load Images | Done | 
 | 2. | Identify face regions in image | Done | 
-| 3. | Display each face in image separately | To be started| 
-| 4. | Save each face | To be started| 
-| 5. | Display matched and not-matched faces | To be started| 
-| 6. | Prompt user to enter name of unknown face | To be started| 
-| 7. | Save faces in respective directory / database | To be started| 
-| 8. | Identify all faces in a given photo, ask for input for unknown face | To be started| 
-| 9. | Organize gallery | To be started| 
+| 3. | Display each face in image separately | TBD| 
+| 4. | Save each face | TBD| 
+| 5. | Display matched and not-matched faces | TBD| 
+| 6. | Prompt user to enter name of unknown face | TBD| 
+| 7. | Save faces in respective directory / database | TBD| 
+| 8. | Identify all faces in a given photo, ask for input for unknown face | TBD| 
+| 9. | Organize gallery | TBD| 
 
 ## Future Work 
 
